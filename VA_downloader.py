@@ -4,7 +4,7 @@
 
 import os, requests, bs4
 
-os.makedirs('C:\\Python_scripts\\visual_art1', exist_ok=True)
+os.makedirs('C:\\Python_scripts\\visual_art', exist_ok=True)
 initUrl='http://www.visualart.ro/forum/threads/24773-Despre-inceput/page1'
 res=requests.get(initUrl)
 initSoup=bs4.BeautifulSoup(res.text, 'html.parser')
