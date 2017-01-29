@@ -1,5 +1,5 @@
 #! python3
-#VA_downloader.py this scrips downloads all images from my thread
+#VA_downloader.py this script downloads all images from my thread
 
 
 import os, requests, bs4
